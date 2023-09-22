@@ -1,8 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
-const botConfig = require('./scripts/bot');
 const settings = require('./settings');
-const botpaths = require('./FullVidK/config')
 // Replace 'YOUR_BOT_TOKEN' with your actual bot token
 const bot = new TelegramBot(global.TOKEN, { polling: true});
 const pink = '\x1b[35m';
